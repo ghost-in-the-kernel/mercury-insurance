@@ -1,0 +1,40 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "build": {
+    "commit": "3223923941dd6201e4697518f8d8a62e80e44220",
+    "branch": "main"
+  },
+  "framework": "playwright",
+  "generatedAt": "2026-11-06T07:00:30.042Z",
+  "command": "suite-builder build https://www.mercuryinsurance.com/",
+  "templates": "crawl/www.mercuryinsurance.com.templates.json",
+  "crawl": "crawl/www.mercuryinsurance.com.crawl.json",
+  "crawlFileSaved": "2026-11-06T07:00:21.090Z",
+  "pages": {
+    "ship": "all",
+    "crawl": "d060a89e4d6c30a4",
+    "signedIn": false,
+    "roles": []
+  },
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "HelpMeFindPage",
+      "patterns": [
+        "/*/*",
+        "/*/california/homeowners-insurance/wildfire-mitigation/*",
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/resources/*/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "ResourcesPage",
+      "patterns": [
+        "/resources/*/*",
+        "/resources/*",
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/*#2",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "HelpMeFind2Page",
+      "patterns": [
+        "/*/*",
+        "/*",
+        "/insurance/*/*",
+        "/claims/carsfirst/carsfacility/#/*",
+        "/about/careers-jobs/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/local/*/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "LocalPage",
+      "patterns": [
+        "/local/*/*",
+        "/local/*/*/*",
+        "/*/*/*",
+        "/*/auto/coverage/*",
+        "/*/*",
+        "/local/florida/*",
+        "/local/virginia/*/*",
+        "/local/georgia/atlanta/*",
+        "/local/nevada/reno/*",
+        "/*/renters/*",
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "RoadsideSitemapPage",
+      "patterns": [
+        "/*",
+        "/*/*/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/*/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "ArticlePage",
+      "patterns": [
+        "/*/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/*/*#2",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "HelpMeFind3Page",
+      "patterns": [
+        "/*/*/*",
+        "/*/texas/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/agent-locator/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AgentsAgentLocatorPage",
+      "patterns": [
+        "/agents/agent-locator/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/*/*#3",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "UmbrellaInsurancePage",
+      "patterns": [
+        "/*/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/agentonboarding/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AgentsAgentonboardingPage",
+      "patterns": [
+        "/agents/agentonboarding/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/careers-jobs/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "CareersJobsPage",
+      "patterns": [
+        "/*/careers-jobs/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/quote.html",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "QuotePage",
+      "patterns": [
+        "/quote.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/florida-insurance-agents.html",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AgentsFloridaInsuranceAgentsPage",
+      "patterns": [
+        "/agents/florida-insurance-agents.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/*/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "InsuranceAgencyPage",
+      "patterns": [
+        "/agents/*/*",
+        "/agents/arizona/*",
+        "/agents/florida/*/*",
+        "/agents/florida/jyara-ins-/*",
+        "/agents/new-jersey/mark-a-talbot-t/*",
+        "/agents/texas/pathfinder/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/insurance/umbrella/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "InsuranceUmbrellaPage",
+      "patterns": [
+        "/insurance/umbrella/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/claims/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "ClaimsPage",
+      "patterns": [
+        "/claims/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/*/*#4",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "HelpMeFind4Page",
+      "patterns": [
+        "/*/*/*",
+        "/*/*",
+        "/drive-safe/*",
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/business-owners-insurance/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "BusinessOwnersInsurancePage",
+      "patterns": [
+        "/*/business-owners-insurance/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/illinois-insurance-agents.html",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AgentsIllinoisInsuranceAgentsPage",
+      "patterns": [
+        "/agents/illinois-insurance-agents.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AgentPage",
+      "patterns": [
+        "/agents/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/new-jersey-insurance-agents.html",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AgentsNewJerseyInsurancePage",
+      "patterns": [
+        "/agents/new-jersey-insurance-agents.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/local/texas/auto-insurance/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "LocalTexasAutoInsurancePage",
+      "patterns": [
+        "/local/texas/auto-insurance/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/about/careers-jobs/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AboutCareersJobsPage",
+      "patterns": [
+        "/about/careers-jobs/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/careers-jobs/*/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "CareersJobs2Page",
+      "patterns": [
+        "/*/careers-jobs/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/agents/texas-insurance-agents.html",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "AgentsTexasInsuranceAgentsPage",
+      "patterns": [
+        "/agents/texas-insurance-agents.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/florida/*/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "FloridaAutoInsurancePage",
+      "patterns": [
+        "/*/florida/*/*",
+        "/*/florida/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/pro-tips/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "InteractionCounterPage",
+      "patterns": [
+        "/pro-tips/*",
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/retrieve-quote/",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "RetrieveQuotePage",
+      "patterns": [
+        "/retrieve-quote/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/*/california/homeowners-insurance/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "FaqpagePage",
+      "patterns": [
+        "/*/california/homeowners-insurance/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/drive-safe/teen-driving/driving-laws-by-state.html",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "DriveSafeTeenDrivingPage",
+      "patterns": [
+        "/drive-safe/teen-driving/driving-laws-by-state.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/campaigns/*",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "CampaignsLeakDetectionPage",
+      "patterns": [
+        "/campaigns/*",
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/campaigns/leak-detection/faqs.html",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "CampaignsLeakDetectionFaqsPage",
+      "patterns": [
+        "/campaigns/leak-detection/faqs.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    },
+    {
+      "id": "type:/campaigns/leak-detection/www.beagleservices.com",
+      "kind": "page-type",
+      "introducedAt": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e",
+      "cls": "CampaignsLeakDetectionWwwPage",
+      "patterns": [
+        "/campaigns/leak-detection/www.beagleservices.com"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d060a89e4d6c30a415ef4fb803dfe7cf8b3e1d60d3ad560a00edae7a0af03a0e"
+      }
+    }
+  ]
+}
